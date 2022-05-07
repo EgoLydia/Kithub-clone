@@ -371,12 +371,19 @@
 @media (min-width: 1200px) {
   .pt-lg-40 {
     padding-top: 40px !important;
-    max-width: 75%;
+   
+  }
+}
+
+@media (min-width: 1400px) {
+  .pt-lg-40 {
+    padding-top: 40px !important;
+    max-width: 1200px;
     margin: auto;
   }
 
-  .header-section {
-    max-width: 75%;
+  .header-section, .featured {
+    max-width: 1200px;
     margin: auto;
   }
 }
