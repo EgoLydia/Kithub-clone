@@ -25,7 +25,7 @@
   border-bottom: 1px solid #e6e9ed;
 }
 
-.nav-item:active .nav-link{
+.nav-item:active .nav-link {
   color: #2052eb !important;
 }
 
@@ -37,7 +37,6 @@
   width: 0.563rem;
   height: 0.438rem;
   border: none;
-  padding-left: 50px;
   vertical-align: 0.125rem;
   background-image: url(/assets/dropdown.svg);
   background-repeat: no-repeat;
@@ -67,12 +66,12 @@
 }
 
 .landing-split-inner:hover {
-  background-color: #fff !important;}
-
-.account:hover{
-  background-color: #F4F7FE !important;
+  background-color: #fff !important;
 }
 
+.account:hover {
+  background-color: #f4f7fe !important;
+}
 
 .active {
   color: #2052eb !important;
@@ -83,10 +82,18 @@
   width: 100% !important;
 }
 
+.nav-pt-3{
+  padding-top: 18px !important;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-toggle {
+  position: relative;
+}
+
 .navbar .navbar-nav .dropdown .dropdown-toggle.show::after {
   transform: rotate(180deg) translateY(50%);
   position: relative;
-  right: 0;
+  left: 96%;
 }
 
 .dropdown-toggle::after {
@@ -96,6 +103,10 @@
 
 .px-20 {
   padding: 0px 20px;
+}
+
+.py-20{
+  padding: 20px 0px;
 }
 
 .dropdown-header {
@@ -128,32 +139,154 @@
   border-color: #1a42bc;
 }
 
-.doc{
+.doc {
   font-size: 14px;
   font-weight: 400;
   color: #616972;
   line-height: 25px;
 }
 
-.bi-chevron-right{
+.bi-chevron-right {
   font-size: 10px;
   margin-left: auto;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
   color: #2052eb;
 }
 
-.doc-inner:hover{
+.doc-inner:hover {
   color: #2052eb !important;
   text-decoration: none !important;
 }
 
+.header-section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-shadow {
+  box-shadow: 0px 3px 8px #d2dcfb;
+}
+
+.rounded-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #d2dcfb !important;
+}
+
+.span {
+  margin-top: 503px !important;
+  margin-left: 4px !important;
+  border: none;
+  width: 16px;
+  height: 16px;
+  top: -2;
+}
+
+.mt-60 {
+  margin-top: 40px;
+}
+
+.card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-shadow {
+  box-shadow: 0 0.188rem 0.375rem rgb(140 146 158 / 15%) !important;
+}
+
+.card-icon {
+  font-weight: 400;
+}
+.bi-alarm {
+  font-size: 29px;
+  line-height: 41px;
+}
+.bi-check-circle {
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.bi-emoji-smile {
+  font-size: 42px;
+  line-height: 51px;
+}
+
+.flex-grow-1 {
+  flex-grow: 1 !important;
+}
+
+.course-card-1 {
+  width: 205px;
+  position: absolute;
+  top: 50%;
+  left: -7%;
+}
+
+.course-card-2 {
+  width: 205px;
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  padding: 3px 0px;
+
+}
+
+@media (min-width:583px) {
+  .course-card-1 {
+    width: 205px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+  }
+  
+  .course-card-2 {
+    width: 198px;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    padding: 3px 0px;
+  
+  }
+
+}
+@media (min-width: 768px) {
+  .course-card-1 {
+    width: 205px;
+    position: absolute;
+    top: 50%;
+    left: -20%;
+  }
+  
+  .course-card-2 {
+    width: 205px;
+    position: absolute;
+    top: 50%;
+    left: 63%;
+  
+  }
+  
+  .header-section {
+    padding-top: 35px;
+    padding-bottom: 60px;
+  }
+
+  .course-text {
+    margin-bottom: 25px;
+  }
+
+  .row-btn {
+    margin-top: 40px;
+  }
+}
 @media (min-width: 992px) {
   .nav-bar .dropdown-menu {
     animation: flipInX;
     animation-duration: 1s;
-  } 
+  }
 
   .dropdown-menu-lg {
     min-width: 31rem;
@@ -180,6 +313,18 @@
     top: 100%;
   }
 
+  .navbar .navbar-nav .dropdown .dropdown-toggle.show::after {
+    transform: rotate(180deg) translateY(50%);
+    position: relative;
+  }
+  
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  
+
   header {
     margin-bottom: 60px;
   }
@@ -202,10 +347,35 @@
     background-color: transparent;
     box-shadow: none;
   }
+  .header-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .course-card-1 {
+    width: 205px;
+    position: absolute;
+    top: 11%;
+    left: 4%;
+    margin-left: -25%;
+  }
+  
+  .course-card-2 {
+    width: 198px;
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    margin-left: -25%;
+  }
+}
 
 @media (min-width: 1200px) {
   .pt-lg-40 {
     padding-top: 40px !important;
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .header-section {
     max-width: 75%;
     margin: auto;
   }
