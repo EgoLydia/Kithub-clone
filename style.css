@@ -82,6 +82,10 @@
   width: 100% !important;
 }
 
+.nav-pt-3{
+  padding-top: 18px !important;
+}
+
 .navbar .navbar-nav .dropdown .dropdown-toggle {
   position: relative;
 }
@@ -101,7 +105,7 @@
   padding: 0px 20px;
 }
 
-.py-20 {
+.py-20{
   padding: 20px 0px;
 }
 
@@ -180,6 +184,10 @@
   width: 16px;
   height: 16px;
   top: -2;
+}
+
+.mt-60 {
+  margin-top: 40px;
 }
 
 .card-body {
@@ -296,7 +304,6 @@
     top: 50%;
     left: 8%;
   }
-
   .course-card-2 {
     width: 198px;
     position: absolute;
@@ -425,6 +432,26 @@
     background-color: transparent;
     box-shadow: none;
   }
+  .header-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .course-card-1 {
+    width: 205px;
+    position: absolute;
+    top: 11%;
+    left: 4%;
+    margin-left: -25%;
+  }
+  
+  .course-card-2 {
+    width: 198px;
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    margin-left: -25%;
+  }
+}
 
   .header-section {
     padding-top: 60px;
@@ -485,13 +512,7 @@
 @media (min-width: 1200px) {
   .pt-lg-40 {
     padding-top: 40px !important;
-    /* max-width: 75%;
-    margin: auto; */
-  }
-
-  .header-section {
-    /* max-width: 75%;
-    margin: auto; */
+    
   }
 
   .course-card-1 {
