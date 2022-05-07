@@ -327,6 +327,7 @@
   line-height: 28px;
   font-size: 16px;
   color: #616972;
+  margin-bottom: 35px;
 }
 
 .avatar-name {
@@ -432,6 +433,9 @@
 }
 
 @media (min-width: 992px) {
+  .mb-lg-60{
+    margin-bottom: 60px !important;
+  }
   .nav-bar .dropdown-menu {
     animation: flipInX;
     animation-duration: 1s;
