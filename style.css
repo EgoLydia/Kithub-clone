@@ -37,7 +37,6 @@
   width: 0.563rem;
   height: 0.438rem;
   border: none;
-  padding-left: 50px;
   vertical-align: 0.125rem;
   background-image: url(/assets/dropdown.svg);
   background-repeat: no-repeat;
@@ -83,10 +82,14 @@
   width: 100% !important;
 }
 
+.navbar .navbar-nav .dropdown .dropdown-toggle {
+  position: relative;
+}
+
 .navbar .navbar-nav .dropdown .dropdown-toggle.show::after {
   transform: rotate(180deg) translateY(50%);
   position: relative;
-  right: 0;
+  left: 96%;
 }
 
 .dropdown-toggle::after {
@@ -234,7 +237,6 @@
     position: absolute;
     top: 50%;
     left: 8%;
-    /* left: -20%; */
   }
   
   .course-card-2 {
@@ -243,7 +245,6 @@
     top: 50%;
     left: 53%;
     padding: 3px 0px;
-    /* left: 63%; */
   
   }
 
@@ -276,7 +277,7 @@
   .row-btn {
     margin-top: 40px;
   }
-
+}
 @media (min-width: 992px) {
   .nav-bar .dropdown-menu {
     animation: flipInX;
@@ -307,6 +308,18 @@
     visibility: visible;
     top: 100%;
   }
+
+  .navbar .navbar-nav .dropdown .dropdown-toggle.show::after {
+    transform: rotate(180deg) translateY(50%);
+    position: relative;
+  }
+  
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  
 
   header {
     margin-bottom: 60px;
