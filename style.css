@@ -78,7 +78,7 @@ body{
 
 .active {
   color: #2052eb !important;
-  background-color: #fff !important;
+  background-color: transparent !important;
 }
 
 .w-100 {
@@ -179,12 +179,11 @@ body{
 }
 
 .span {
+  position: absolute;
   margin-top: 503px !important;
   margin-left: 4px !important;
   border: none;
-  width: 16px;
-  height: 16px;
-  top: -2;
+  top: 4%;
 }
 
 .card-body {
