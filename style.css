@@ -3,6 +3,7 @@
   font-family: "Inter", sans-serif;
 }
 
+
 .course-header {
   background-image: url(/assets/header-bg.svg);
   background-size: cover;
@@ -114,9 +115,11 @@
 
 .nav-link {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 28px;
   color: #616972;
+  padding-left:16px;
+  padding-right: 16px;
 }
 
 .navbar-button {
@@ -400,6 +403,71 @@
     top: 0;
 }
 
+.vue-icons{
+  font-size: 40px;
+}
+
+.shapes{
+  top: 20%;
+  right: -30%;
+    z-index: -1;
+}
+
+.rounded{
+  width: 35px;
+  height: 35px;
+  background-color: #4d75ef ;
+  border-radius: 50% !important;
+}
+
+.rounded2{
+  width: 35px;
+  height: 35px;
+  background-color: rgb(77, 117, 239, 30%) ;
+  border-radius: 50% !important;
+}
+
+.card-icons{
+  width: min-content;
+  z-index: 9;
+  margin-bottom: 25px;
+}
+
+.card1{
+  background-color: #2052EB !important;
+}
+
+.card2{
+  background-color: #ffffff;
+}
+
+.course-snippet h2{
+  font-size: 23px;
+  line-height: 34px;
+  color: #222222;
+  font-weight: 700;
+}
+
+.course-snippet p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #616972;
+  font-weight: 400;
+}
+
+.vue-title{
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 600;
+}
+
+.vue{
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 25px !important;
+  color: #616972;
+}
 @media (min-width: 583px) {
   .course-card-1 {
     width: 205px;
@@ -603,6 +671,12 @@
     font-size: 30px;
     line-height: 43px;
   }
+
+  .course-snippet h2{
+    font-size: 26px;
+    line-height: 38px;
+  }
+    
 }
 
 @media (min-width: 1200px) {
