@@ -3,6 +3,10 @@
   font-family: "Inter", sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .course-header {
   background-image: url(/assets/header-bg.svg);
   background-size: cover;
@@ -215,14 +219,14 @@
 }
 
 .course-card-1 {
-  width: 205px;
+  width: fit-content;
   position: absolute;
   top: 40%;
-  left: -5%;
+  left: -1%;
 }
 
 .course-card-2 {
-  width: 198px;
+  width: 180px;
   position: absolute;
   top: 40%;
   left: 54%;
@@ -402,7 +406,7 @@
 
 @media (min-width: 583px) {
   .course-card-1 {
-    width: 205px;
+    width: fit-content;
     position: absolute;
     top: 50%;
     left: 8%;
