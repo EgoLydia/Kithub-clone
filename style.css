@@ -766,10 +766,6 @@ padding: 0px!important;
   .mb-lg-60{
     margin-bottom: 60px !important;
   }
-  .nav-bar .dropdown-menu {
-    animation: flipInX;
-    animation-duration: 1s;
-  }
 
   .dropdown-menu-lg {
     min-width: 31rem;
@@ -794,6 +790,9 @@ padding: 0px!important;
     opacity: 1;
     visibility: visible;
     top: 100%;
+    animation: flipInX;
+    animation-duration: 0.5s;
+
   }
 
   .navbar .navbar-nav .dropdown .dropdown-toggle.show::after {
