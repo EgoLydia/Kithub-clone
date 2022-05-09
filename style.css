@@ -148,6 +148,12 @@ body{
   line-height: 25px;
 }
 
+.header-btn:hover{
+    color: #fff;
+    background-color: #1b46c8;
+    border-color: #1a42bc;
+  }
+  
 .bi-chevron-right {
   font-size: 10px;
   margin-left: auto;
@@ -253,13 +259,16 @@ body{
   line-height: 24px;
   color: #fff;
   padding: 10px 25px !important;
-  background-color: #2052eb !important;
 }
 
 .who-quest {
   color: #616972;
   background-color: transparent !important;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 25px !important;
 }
 
 .card-header1 {
