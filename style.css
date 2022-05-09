@@ -682,40 +682,453 @@ padding: 0px!important;
 #fade-in .card:nth-child(3){
   animation-delay:  1s;
 }
+
 /* course benefit */
 .my-gray-bg{
   border-radius: 0.188rem !important;
   background-color: #F4F7FE !important;
  }
+
+ #recognise-con{
+  display: flex!important;
+  flex-direction: row!important;
+  align-items: center;
+ }
+
  #recognise{
   border: 4px solid #2052EB !important;
-  border-radius: 0.188rem !important;
+  padding-right: 25px !important;
+  padding-left: 25px !important;
   margin-top: 40px !important;
-  padding: 30px 25px !important;
+  border-radius: 0.188rem !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  
  }
+
  .simg{
    margin-right: 20px!important;
    max-width: 100%;
-   height: auto;
-   width: 70px;
+   height: 65px;
+   width: 65px;
+   
  }
+
  #newpad{
    padding: 30px!important;
  }
+
  #newpad .check-me{
    padding: 15px!important;
  }
+
  .coursehead{
    color: #222222;
    font-size: 26px!important;
    font-weight: 800!important;
    line-height:38px!important ;
  }
+
  .rechead{
    color: #222222;
-   font-size: 26px!important;
+   font-size: calc(1.2875rem);
    font-weight: 700!important;
  }
+
+ .reg-text p{
+  font-size: 1rem;
+ }
+
+ /* truested by thousands */
+ #trusted{
+   padding-top: 50px!important;
+   padding-bottom: 25px!important;
+ }
+
+ .trustedboth{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1)!important;
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+ }
+
+ .dbuttom{
+   margin-bottom: 35px!important;
+ }
+
+ .myshrink{
+   flex: 1 0 0%;
+   line-height: 1.75;
+ }
+
+ .trustedhead{
+  color: #222222;
+  font-weight: 700;
+  font-size: calc(1.2875rem + 0.45vw);
+  line-height: 1.47;
+  margin-bottom: 10px !important;
+ }
+
+ .trustedp{
+   color: #616E89!important;
+   font-weight: 400!important;
+   margin-bottom: 1rem!important;
+ }
+
+.bigger{
+  position: relative;
+  min-height: 1848px;
+}
+
+.bigger #one{
+  color: #fff;
+  position: absolute;
+  left: 0%;
+  top: 0px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bigger #two{
+  position: absolute;
+  left: 0%;
+  top: 238px;
+  flex: 0 0 auto;
+  width: 100%;
+ 
+}
+
+.bigger #three{
+  position: absolute;
+  left: 0%;
+  top: 448px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bigger #four{
+  position: absolute;
+  left: 0%;
+  top: 686px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bigger #five{
+  position: absolute;
+  left: 0%;
+  top: 924px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bigger #six{
+  position: absolute;
+  left: 0%;
+  top: 1162px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bigger #seven{
+    position: absolute;
+    left: 0%;
+    top: 1638px;
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.bigger #eight{
+  position: absolute;
+  left: 0%;
+  top: 1400px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bigger #nine{
+  position: absolute;
+  left: 0%;
+  top: 1008px;
+  display: none!important;
+}
+
+.give-shad1{
+  background-color:#2052EB !important;
+  box-shadow: 0 0.188rem 0.375rem rgb(140 146 158 / 15%) !important;
+  margin-bottom: 30px;
+}
+
+.give-shad{
+  box-shadow: 0 0.188rem 0.375rem rgb(140 146 158 / 15%) !important;
+  margin-bottom: 30px;
+}
+
+.give-shad>*{
+  flex: 1 1 auto;
+  padding: 1.25rem 1.25rem;
+}
+
+.bobyreal{
+  flex: 1 1 auto;
+  padding: 1.25rem 1.25rem!important;
+}
+
+#trusted .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.188rem;
+}
+
+.myfig{
+  display: block;
+  margin-bottom: 0px!important;
+}
+
+.the-block{
+  margin-bottom: 30px !important;
+  font-size: 1rem;
+  display: block;
+}
+
+.my-caption{
+  display: flex!important;
+  align-items: center !important;
+}
+
+.my-avat{
+   display: inline-block;
+    width: 3.375rem;
+    height: 3.375rem;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 10px !important;
+}
+
+.real-avat{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  border-radius: 50% !important;
+}
+
+ .avat-text :nth-child(1){
+  line-height: 1 !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.5rem !important;
+  font-size: 1rem;
+  
+}
+
+#wer{
+  color: #a6baf7 !important;
+  font-size: 0.875rem !important;
+  margin-bottom: 0 !important;
+  line-height: 1!important;
+}
+
+.avat-text > p{
+  font-size: 0.875rem !important;
+  margin-bottom: 0 !important;
+  line-height: 1!important;
+} 
+
+/* stay up section */
+ .stay-bg{
+  border-radius: 0.188rem !important;
+  background-color: #F4F7FE !important;
+  position: relative;
+}
+
+.stay-bg img:nth-child(1){
+  position: absolute!important;
+  left: 50px;
+    top: 75px;
+}
+
+.stay-bg img:nth-child(2){
+  position: absolute!important;
+  left: 160px;
+  bottom: 60px
+}
+
+.stay-bg img:nth-child(4){
+  position: absolute!important;
+  right: 50px;
+  top: 75px;
+  vertical-align: middle!important;
+}
+
+.stay-bg img:nth-child(5){
+  position: absolute!important;
+  right: 160px;
+  bottom: 60px;
+  vertical-align: middle!important;
+}
+
+.stay-up-date{
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+  font-size: calc(1.325rem + 0.9vw);
+  line-height: 1.43;
+  text-align: center!important;
+}
+
+.stayk{
+  flex: 0 0 auto; 
+  width: 83.33333%;
+} 
+
+.stayk :nth-child(1){
+  margin-bottom: 25px !important;
+} 
+
+.stay-input{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+#chan{
+  flex: 0 0 auto;
+  width: 83.33333%;
+}
+
+.stay-input input:nth-child(1){
+  z-index: 9;
+  margin-left: -2px;
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  order: 0;
+  border-top-left-radius: 0.188rem !important;
+  border-bottom-left-radius: 0.188rem !important;
+  border-right-color: transparent;
+  display: block;
+  width: 100%;
+  padding: 0.625rem 1rem;
+  line-height: 1.5;
+  color: #3F495E;
+  border: 1px solid #D9DEE3;
+  appearance: none;
+  border-radius: 0.188rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.stay-input input:nth-child(2){
+  order: 1;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0.188rem !important;
+  border-bottom-right-radius: 0.188rem !important;
+  border-left: 0;
+
+}
+
+#staybut{
+  margin: 0.25rem;
+  position: absolute;
+  z-index: 9;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  color: #fff;
+  background-color: #2052EB;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  right:0;
+  
+}
+
+/* footer */
+#futter{
+  padding-top: 50px!important;
+  padding-bottom: 30px!important;
+}
+
+.foot-img{
+  margin-bottom: 25px!important;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.foot-t-icon{
+  text-align: left!important;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.givelist{
+  margin-bottom: 0 !important;
+  padding-left: 0;
+    list-style: none
+}
+
+.thgivelist{
+  margin-right: 0.313rem!important;
+  display: inline-block!important;
+}
+
+#thgivelistlas{
+  margin-right: 0px!important;
+}
+
+.icon-body{
+    text-decoration: none!important;
+    display: inline-block;
+    width: 1.875rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #d2dcfb
+}
+
+.fut-icon{
+  font-size: 1rem;
+  color: #2052EB !important;
+  font-weight: 400;
+}
+
+#fill-fut{
+  margin-top: 30px!important;
+}
+
+#right-res{
+  margin-top: 10px !important;
+  order: 1 !important;
+  flex: 0 0 auto;
+    width: 100%;
+}
+
+.foot-r-col{
+  color: #222222 !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+#left-res{
+  text-align: left !important;
+  order: 0 !important;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.e-fin{
+  color: #222222 !important;
+  margin-bottom: 20px !important;
+  margin-right: 25px !important;
+  display: block;
+  text-decoration: none;
+}
+
 
 @media (min-width: 583px) {
   .course-card-1 {
@@ -784,10 +1197,12 @@ padding: 0px!important;
     font-size: 28px;
     line-height: 40px;
   }
+
    /* accordion fin */
    .spy-25{
     padding: 60px 0px 80px 0px;
   }
+
   #myaccord{
     margin-top: 60px;
   }
@@ -801,6 +1216,141 @@ padding: 0px!important;
   .course-snippet{
     padding: 60px 0px;
   }
+
+  /* truested by thousand */
+  #trusted{
+    padding-top: 110px!important;
+   
+  }
+
+  .bigger{
+    position: relative;
+    min-height: 1008px!important;
+  }
+
+  .bigger #one{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .bigger #two{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    flex: 0 0 auto;
+    width: 50%;
+   
+  }
+
+  .bigger #three{
+    position: absolute;
+    left: 50%;
+    top: 210px;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .bigger #four{
+    position: absolute;
+    left: 0%;
+    top: 266px;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .bigger #five{
+    position: absolute;
+    left: 50%;
+    top: 476px;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .bigger #six{
+    position: absolute;
+    left: 0%;
+    top: 532px;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .bigger #seven{
+      position: absolute;
+      left: 0%;
+      top: 793px!important;
+      flex: 0 0 auto;
+      width: 50%;
+  }
+
+  .bigger #eight{
+    position: absolute;
+    left: 50%;
+    top: 742px;
+    flex: 0 0 auto;
+    width: 50%;
+  
+  }
+
+  .bigger #nine{
+    position: absolute;
+    display: none!important;
+  }
+
+  /* stay up */
+  .stay-bg{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  #chan{
+    flex: 0 0 auto !important;
+    width: 66.66667%!important;
+  }
+
+  /* footer */
+    .foot-img{
+    margin-bottom: 0px!important;
+    flex: 0 0 auto;
+    width: 41.66667%;
+  }
+
+  .foot-t-icon{
+    text-align: right!important;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  #fill-fut{
+    margin-top: 1rem !important;
+  }
+
+  #right-res{
+    margin-top: 0px !important;
+    order: 0 !important;
+    flex: 0 0 auto;
+      width: 41.6667%;
+  }
+
+  #left-res{
+    text-align: right !important;
+    order: 1 !important;
+    flex: 0 0 auto;
+    width: 58.333%;
+  }
+
+  .e-fin{
+    color: #222222 !important;
+    margin-bottom: 0px !important;
+    margin-right: 25px !important;
+    display: inline-block!important;
+    text-decoration: none;
+  }
+  #no-marg{
+    margin-right: 0px!important;
+  }
+
   
 }
 
@@ -932,6 +1482,90 @@ padding: 0px!important;
     font-size: 26px;
     line-height: 38px;
   }
+
+  /* trusted */
+  .bigger{
+    position: relative;
+    min-height: 826px!important;
+  }
+  .bigger #one{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    width: 33.33%!important;
+  }
+  .bigger #two{
+    position: absolute;
+    left: 33.333%!important;
+    top: 0px;
+    width: 33.3333%!important;
+   
+  }
+  .bigger #three{
+    position: absolute;
+    left: 66.6646%!important;
+    top: 0px;
+    width: 33.3333%;
+  }
+  .bigger #four{
+    position: absolute;
+    left: 33.3333%!important;
+    top: 238px!important;
+    width: 33.3333%;
+  }
+
+  .bigger #five{
+    position: absolute;
+    left: 0!important;
+    top: 294px!important;
+    width: 33.3333%;
+  }
+
+  .bigger #six{
+    position: absolute;
+    left: 66.6646%!important;
+    top: 294px!important;
+    width: 33.3333%;
+  }
+
+  .bigger #seven{
+      position: absolute;
+      left: 0%!important;
+      top: 584px!important;
+      width: 33.3333%;
+  }
+  .bigger #eight{
+    position: absolute;
+    left: 33.333%!important;
+    top: 534px!important;
+    width: 33.3333%;
+  }
+
+  .bigger #nine{
+    position: absolute;
+    left:66.6646%;
+    top: 584px!important;
+    width: 33.3333%;
+    display: block!important;
+   
+  }
+
+  #chan{
+    flex: 0 0 auto;
+    width: 41.66667%!important;
+  }
+
+  #futter{
+    padding-top: 70px!important;
+    padding-bottom: 30px!important;
+  }
+
+  .foot-t-icon{
+    text-align: right!important;
+    width: 58.3333%!important;
+    flex: 0 0 auto;
+  }
+
     
 }
 
@@ -981,9 +1615,7 @@ padding: 0px!important;
     font-size: 32px;
     line-height: 46px;
   }
-}
 
-@media (min-width: 1400px) {
   .pt-lg-40 {
     padding-top: 40px !important;
     max-width: 1200px;
@@ -995,4 +1627,36 @@ padding: 0px!important;
     max-width: 1200px;
     margin: auto;
   }
+
+}
+
+@media (min-width: 1400px) {
+  .pt-lg-40 {
+    padding-top: 40px !important;
+    max-width: 1150px;
+    margin: auto;
+  }
+
+  .header-section,
+  .featured, .course-snippet {
+    max-width: 1150px;
+    margin: auto;
+  }
+
+    #course .container{
+    max-width: 1150px!important;
+  }
+  #benefit .container{
+    max-width: 1150px!important;
+  }
+  #trusted .container{
+    max-width: 1150px!important;
+  }
+  #stay-up .container{
+    max-width: 1150px!important;
+  }
+  #futter .container{
+    max-width: 1150px!important;
+  }
+
 }
