@@ -14,11 +14,12 @@ body{
   background-position: center;
 }
 
-.navbar-toggler {
+.navbar-nav {
   color: none !important;
   border: none !important;
   outline: none !important;
 }
+
 
 [aria-expanded^="true"] .navbar-toggler-icon {
   background-image: url(/assets/close-button.svg);
