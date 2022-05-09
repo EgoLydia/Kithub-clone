@@ -78,7 +78,7 @@ body{
 
 .active {
   color: #2052eb !important;
-  background-color: #fff !important;
+  background-color: transparent !important;
 }
 
 .w-100 {
@@ -148,6 +148,12 @@ body{
   line-height: 25px;
 }
 
+.header-btn:hover{
+    color: #fff;
+    background-color: #1b46c8;
+    border-color: #1a42bc;
+  }
+  
 .bi-chevron-right {
   font-size: 10px;
   margin-left: auto;
@@ -179,12 +185,11 @@ body{
 }
 
 .span {
+  position: absolute;
   margin-top: 503px !important;
   margin-left: 4px !important;
   border: none;
-  width: 16px;
-  height: 16px;
-  top: -2;
+  top: 4%;
 }
 
 .card-body {
@@ -254,13 +259,16 @@ body{
   line-height: 24px;
   color: #fff;
   padding: 10px 25px !important;
-  background-color: #2052eb !important;
 }
 
 .who-quest {
   color: #616972;
   background-color: transparent !important;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 25px !important;
 }
 
 .card-header1 {
@@ -668,11 +676,11 @@ padding: 0px!important;
 }
 
 #fade-in .card:nth-child(2){
-  animation-delay:  1s;
+  animation-delay:  0.5s;
 }
 
 #fade-in .card:nth-child(3){
-  animation-delay:  2s;
+  animation-delay:  1s;
 }
 
 /* course benefit */
@@ -1350,10 +1358,6 @@ padding: 0px!important;
   .mb-lg-60{
     margin-bottom: 60px !important;
   }
-  .nav-bar .dropdown-menu {
-    animation: flipInX;
-    animation-duration: 1s;
-  }
 
   .dropdown-menu-lg {
     min-width: 31rem;
@@ -1378,6 +1382,9 @@ padding: 0px!important;
     opacity: 1;
     visibility: visible;
     top: 100%;
+    animation: flipInX;
+    animation-duration: 0.5s;
+
   }
 
   .navbar .navbar-nav .dropdown .dropdown-toggle.show::after {
