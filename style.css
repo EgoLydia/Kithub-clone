@@ -682,6 +682,40 @@ padding: 0px!important;
 #fade-in .card:nth-child(3){
   animation-delay:  1s;
 }
+/* course benefit */
+.my-gray-bg{
+  border-radius: 0.188rem !important;
+  background-color: #F4F7FE !important;
+ }
+ #recognise{
+  border: 4px solid #2052EB !important;
+  border-radius: 0.188rem !important;
+  margin-top: 40px !important;
+  padding: 30px 25px !important;
+ }
+ .simg{
+   margin-right: 20px!important;
+   max-width: 100%;
+   height: auto;
+   width: 70px;
+ }
+ #newpad{
+   padding: 30px!important;
+ }
+ #newpad .check-me{
+   padding: 15px!important;
+ }
+ .coursehead{
+   color: #222222;
+   font-size: 26px!important;
+   font-weight: 800!important;
+   line-height:38px!important ;
+ }
+ .rechead{
+   color: #222222;
+   font-size: 26px!important;
+   font-weight: 700!important;
+ }
 
 @media (min-width: 583px) {
   .course-card-1 {
