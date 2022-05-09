@@ -186,11 +186,9 @@ body{
 }
 
 .span {
-  position: absolute;
-  margin-top: 503px !important;
+  position: relative;
   margin-left: 4px !important;
   border: none;
-  top: 4%;
 }
 
 .card-body {
