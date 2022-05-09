@@ -674,17 +674,19 @@ padding: 0px!important;
 #fade-in .card:nth-child(3){
   animation-delay:  2s;
 }
+
 /* course benefit */
 .my-gray-bg{
   border-radius: 0.188rem !important;
   background-color: #F4F7FE !important;
  }
+
  #recognise-con{
   display: flex!important;
   flex-direction: row!important;
-  /* justify-content: start; */
   align-items: center;
  }
+
  #recognise{
   border: 4px solid #2052EB !important;
   padding-right: 25px !important;
@@ -703,31 +705,38 @@ padding: 0px!important;
    width: 65px;
    
  }
+
  #newpad{
    padding: 30px!important;
  }
+
  #newpad .check-me{
    padding: 15px!important;
  }
+
  .coursehead{
    color: #222222;
    font-size: 26px!important;
    font-weight: 800!important;
    line-height:38px!important ;
  }
+
  .rechead{
    color: #222222;
    font-size: calc(1.2875rem);
    font-weight: 700!important;
  }
+
  .reg-text p{
   font-size: 1rem;
  }
+
  /* truested by thousands */
  #trusted{
    padding-top: 50px!important;
    padding-bottom: 25px!important;
  }
+
  .trustedboth{
   display: flex;
   flex-wrap: wrap;
@@ -735,13 +744,16 @@ padding: 0px!important;
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
  }
+
  .dbuttom{
    margin-bottom: 35px!important;
  }
+
  .myshrink{
    flex: 1 0 0%;
    line-height: 1.75;
  }
+
  .trustedhead{
   color: #222222;
   font-weight: 700;
@@ -749,15 +761,18 @@ padding: 0px!important;
   line-height: 1.47;
   margin-bottom: 10px !important;
  }
+
  .trustedp{
    color: #616E89!important;
    font-weight: 400!important;
    margin-bottom: 1rem!important;
  }
+
 .bigger{
   position: relative;
   min-height: 1848px;
 }
+
 .bigger #one{
   color: #fff;
   position: absolute;
@@ -766,6 +781,7 @@ padding: 0px!important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .bigger #two{
   position: absolute;
   left: 0%;
@@ -774,6 +790,7 @@ padding: 0px!important;
   width: 100%;
  
 }
+
 .bigger #three{
   position: absolute;
   left: 0%;
@@ -781,6 +798,7 @@ padding: 0px!important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .bigger #four{
   position: absolute;
   left: 0%;
@@ -788,6 +806,7 @@ padding: 0px!important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .bigger #five{
   position: absolute;
   left: 0%;
@@ -795,6 +814,7 @@ padding: 0px!important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .bigger #six{
   position: absolute;
   left: 0%;
@@ -802,6 +822,7 @@ padding: 0px!important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .bigger #seven{
     position: absolute;
     left: 0%;
@@ -809,6 +830,7 @@ padding: 0px!important;
     flex: 0 0 auto;
     width: 100%;
 }
+
 .bigger #eight{
   position: absolute;
   left: 0%;
@@ -816,29 +838,35 @@ padding: 0px!important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .bigger #nine{
   position: absolute;
   left: 0%;
   top: 1008px;
   display: none!important;
 }
+
 .give-shad1{
   background-color:#2052EB !important;
   box-shadow: 0 0.188rem 0.375rem rgb(140 146 158 / 15%) !important;
   margin-bottom: 30px;
 }
+
 .give-shad{
   box-shadow: 0 0.188rem 0.375rem rgb(140 146 158 / 15%) !important;
   margin-bottom: 30px;
 }
+
 .give-shad>*{
   flex: 1 1 auto;
   padding: 1.25rem 1.25rem;
 }
+
 .bobyreal{
   flex: 1 1 auto;
   padding: 1.25rem 1.25rem!important;
 }
+
 #trusted .card{
     position: relative;
     display: flex;
@@ -847,19 +875,23 @@ padding: 0px!important;
     border: 0 solid rgba(0, 0, 0, 0.125);
     border-radius: 0.188rem;
 }
+
 .myfig{
   display: block;
   margin-bottom: 0px!important;
 }
+
 .the-block{
   margin-bottom: 30px !important;
   font-size: 1rem;
   display: block;
 }
+
 .my-caption{
   display: flex!important;
   align-items: center !important;
 }
+
 .my-avat{
    display: inline-block;
     width: 3.375rem;
@@ -868,6 +900,7 @@ padding: 0px!important;
     border-radius: 50%;
     margin-right: 10px !important;
 }
+
 .real-avat{
   width: 100%;
   height: 100%;
@@ -875,6 +908,7 @@ padding: 0px!important;
   vertical-align: middle;
   border-radius: 50% !important;
 }
+
  .avat-text :nth-child(1){
   line-height: 1 !important;
   font-weight: 500 !important;
@@ -882,45 +916,53 @@ padding: 0px!important;
   font-size: 1rem;
   
 }
+
 #wer{
   color: #a6baf7 !important;
   font-size: 0.875rem !important;
   margin-bottom: 0 !important;
   line-height: 1!important;
 }
+
 .avat-text > p{
   font-size: 0.875rem !important;
   margin-bottom: 0 !important;
   line-height: 1!important;
 } 
+
 /* stay up section */
  .stay-bg{
   border-radius: 0.188rem !important;
   background-color: #F4F7FE !important;
   position: relative;
 }
+
 .stay-bg img:nth-child(1){
   position: absolute!important;
   left: 50px;
     top: 75px;
 }
+
 .stay-bg img:nth-child(2){
   position: absolute!important;
   left: 160px;
   bottom: 60px
 }
+
 .stay-bg img:nth-child(4){
   position: absolute!important;
   right: 50px;
   top: 75px;
   vertical-align: middle!important;
 }
+
 .stay-bg img:nth-child(5){
   position: absolute!important;
   right: 160px;
   bottom: 60px;
   vertical-align: middle!important;
 }
+
 .stay-up-date{
   font-weight: 700 !important;
   margin-bottom: 10px !important;
@@ -928,13 +970,16 @@ padding: 0px!important;
   line-height: 1.43;
   text-align: center!important;
 }
+
 .stayk{
   flex: 0 0 auto; 
   width: 83.33333%;
 } 
+
 .stayk :nth-child(1){
   margin-bottom: 25px !important;
 } 
+
 .stay-input{
   position: relative;
   display: flex;
@@ -942,10 +987,12 @@ padding: 0px!important;
   align-items: stretch;
   width: 100%;
 }
+
 #chan{
   flex: 0 0 auto;
   width: 83.33333%;
 }
+
 .stay-input input:nth-child(1){
   z-index: 9;
   margin-left: -2px;
@@ -967,6 +1014,7 @@ padding: 0px!important;
   border-radius: 0.188rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 .stay-input input:nth-child(2){
   order: 1;
   border-top-left-radius: 0 !important;
@@ -976,6 +1024,7 @@ padding: 0px!important;
   border-left: 0;
 
 }
+
 #staybut{
   margin: 0.25rem;
   position: absolute;
@@ -995,28 +1044,34 @@ padding: 0px!important;
   padding-top: 50px!important;
   padding-bottom: 30px!important;
 }
+
 .foot-img{
   margin-bottom: 25px!important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .foot-t-icon{
   text-align: left!important;
   width: 100%;
   flex: 0 0 auto;
 }
+
 .givelist{
   margin-bottom: 0 !important;
   padding-left: 0;
     list-style: none
 }
+
 .thgivelist{
   margin-right: 0.313rem!important;
   display: inline-block!important;
 }
+
 #thgivelistlas{
   margin-right: 0px!important;
 }
+
 .icon-body{
     text-decoration: none!important;
     display: inline-block;
@@ -1027,31 +1082,37 @@ padding: 0px!important;
     border-radius: 50%;
     background-color: #d2dcfb
 }
+
 .fut-icon{
   font-size: 1rem;
   color: #2052EB !important;
   font-weight: 400;
 }
+
 #fill-fut{
   margin-top: 30px!important;
 }
+
 #right-res{
   margin-top: 10px !important;
   order: 1 !important;
   flex: 0 0 auto;
     width: 100%;
 }
+
 .foot-r-col{
   color: #222222 !important;
   margin-bottom: 0 !important;
   margin-top: 0 !important;
 }
+
 #left-res{
   text-align: left !important;
   order: 0 !important;
   flex: 0 0 auto;
   width: 100%;
 }
+
 .e-fin{
   color: #222222 !important;
   margin-bottom: 20px !important;
@@ -1060,20 +1121,6 @@ padding: 0px!important;
   text-decoration: none;
 }
 
-/* id screens begins */
-/* #course .container{
-  max-width: ;
-}
-#benefit .container{
-  max-width: ;
-}
-#trusted .container{
-  max-width: ;
-}
-#futter .container{
-  max-width: ;
-} */
-/* id screen end */
 
 @media (min-width: 583px) {
   .course-card-1 {
@@ -1102,23 +1149,6 @@ padding: 0px!important;
   .sub-header2 {
     line-height: 38px;
   }
-  /* id screens begins */
-#course .container{
-  max-width: 540px!important;
-}
-#benefit .container{
-  max-width: 540px!important;
-}
-#trusted .container{
-  max-width: 540px!important;
-}
-#stay-up .container{
-  max-width: 540px!important;
-}
-#futter .container{
-  max-width: 540px!important;
-}
-/* id screen end */
 }
 
 @media (min-width: 768px) {
@@ -1159,10 +1189,12 @@ padding: 0px!important;
     font-size: 28px;
     line-height: 40px;
   }
+
    /* accordion fin */
    .spy-25{
     padding: 60px 0px 80px 0px;
   }
+
   #myaccord{
     margin-top: 60px;
   }
@@ -1176,15 +1208,18 @@ padding: 0px!important;
   .course-snippet{
     padding: 60px 0px;
   }
+
   /* truested by thousand */
   #trusted{
     padding-top: 110px!important;
    
   }
+
   .bigger{
     position: relative;
     min-height: 1008px!important;
   }
+
   .bigger #one{
     position: absolute;
     left: 0%;
@@ -1200,6 +1235,7 @@ padding: 0px!important;
     width: 50%;
    
   }
+
   .bigger #three{
     position: absolute;
     left: 50%;
@@ -1207,6 +1243,7 @@ padding: 0px!important;
     flex: 0 0 auto;
     width: 50%;
   }
+
   .bigger #four{
     position: absolute;
     left: 0%;
@@ -1214,6 +1251,7 @@ padding: 0px!important;
     flex: 0 0 auto;
     width: 50%;
   }
+
   .bigger #five{
     position: absolute;
     left: 50%;
@@ -1221,6 +1259,7 @@ padding: 0px!important;
     flex: 0 0 auto;
     width: 50%;
   }
+
   .bigger #six{
     position: absolute;
     left: 0%;
@@ -1228,6 +1267,7 @@ padding: 0px!important;
     flex: 0 0 auto;
     width: 50%;
   }
+
   .bigger #seven{
       position: absolute;
       left: 0%;
@@ -1235,6 +1275,7 @@ padding: 0px!important;
       flex: 0 0 auto;
       width: 50%;
   }
+
   .bigger #eight{
     position: absolute;
     left: 50%;
@@ -1243,63 +1284,54 @@ padding: 0px!important;
     width: 50%;
   
   }
+
   .bigger #nine{
     position: absolute;
     display: none!important;
   }
+
   /* stay up */
   .stay-bg{
     padding-top: 80px !important;
     padding-bottom: 80px !important;
   }
+
   #chan{
     flex: 0 0 auto !important;
     width: 66.66667%!important;
   }
+
   /* footer */
-  
-  /* id screens begins */
-  #course .container{
-    max-width: 720px!important;
-  }
-  #benefit .container{
-    max-width: 720px!important;
-  }
-  #trusted .container{
-    max-width: 720px!important;
-  }
-  #stay-up .container{
-    max-width: 720px!important;
-  }
-  #futter .container{
-    max-width: 720px!important;
-  }
-  /* id screen end */
-  .foot-img{
+    .foot-img{
     margin-bottom: 0px!important;
     flex: 0 0 auto;
     width: 41.66667%;
   }
+
   .foot-t-icon{
     text-align: right!important;
     width: 100%;
     flex: 0 0 auto;
   }
+
   #fill-fut{
     margin-top: 1rem !important;
   }
+
   #right-res{
     margin-top: 0px !important;
     order: 0 !important;
     flex: 0 0 auto;
       width: 41.6667%;
   }
+
   #left-res{
     text-align: right !important;
     order: 1 !important;
     flex: 0 0 auto;
     width: 58.333%;
   }
+
   .e-fin{
     color: #222222 !important;
     margin-bottom: 0px !important;
@@ -1443,6 +1475,7 @@ padding: 0px!important;
     font-size: 26px;
     line-height: 38px;
   }
+
   /* trusted */
   .bigger{
     position: relative;
@@ -1473,18 +1506,21 @@ padding: 0px!important;
     top: 238px!important;
     width: 33.3333%;
   }
+
   .bigger #five{
     position: absolute;
     left: 0!important;
     top: 294px!important;
     width: 33.3333%;
   }
+
   .bigger #six{
     position: absolute;
     left: 66.6646%!important;
     top: 294px!important;
     width: 33.3333%;
   }
+
   .bigger #seven{
       position: absolute;
       left: 0%!important;
@@ -1497,6 +1533,7 @@ padding: 0px!important;
     top: 534px!important;
     width: 33.3333%;
   }
+
   .bigger #nine{
     position: absolute;
     left:66.6646%;
@@ -1505,37 +1542,23 @@ padding: 0px!important;
     display: block!important;
    
   }
+
   #chan{
     flex: 0 0 auto;
     width: 41.66667%!important;
   }
-  /* id screens begins */
-  #course .container{
-    max-width: 960px!important;
-  }
-  #benefit .container{
-    max-width: 960px!important;
-  }
-  #trusted .container{
-    max-width: 960px!important;
-  }
-  #stay-up .container{
-    max-width: 960px!important;
-  }
-  #futter .container{
-    max-width: 960px!important;
-  }
-  /* id screen end */
-  /* footer */
+
   #futter{
     padding-top: 70px!important;
     padding-bottom: 30px!important;
   }
+
   .foot-t-icon{
     text-align: right!important;
     width: 58.3333%!important;
     flex: 0 0 auto;
   }
+
     
 }
 
@@ -1585,9 +1608,7 @@ padding: 0px!important;
     font-size: 32px;
     line-height: 46px;
   }
-}
 
-@media (min-width: 1400px) {
   .pt-lg-40 {
     padding-top: 40px !important;
     max-width: 1200px;
@@ -1599,4 +1620,36 @@ padding: 0px!important;
     max-width: 1200px;
     margin: auto;
   }
+
+}
+
+@media (min-width: 1400px) {
+  .pt-lg-40 {
+    padding-top: 40px !important;
+    max-width: 1150px;
+    margin: auto;
+  }
+
+  .header-section,
+  .featured, .course-snippet {
+    max-width: 1150px;
+    margin: auto;
+  }
+
+    #course .container{
+    max-width: 1150px!important;
+  }
+  #benefit .container{
+    max-width: 1150px!important;
+  }
+  #trusted .container{
+    max-width: 1150px!important;
+  }
+  #stay-up .container{
+    max-width: 1150px!important;
+  }
+  #futter .container{
+    max-width: 1150px!important;
+  }
+
 }
